@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.dark-blue-background {
+  background-color: #123456; /* Replace with your desired dark blue color */
+  height: 100vh; /* Make the background cover the entire viewport */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tech-font {
+  font-family: 'Courier New', monospace; /* Or any other tech-like font you prefer */
+  color: #FFFFFF; /* White text for better contrast on dark background */
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.form-control-custom {
+  border-radius: 20px; /* Rounded corners */
+  border: 2px solid #007bff; /* Blue border */
+  padding: 10px; /* Increased padding */
+}
+
+.btn-custom {
+  background-color: #007bff; /* Blue background */
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  padding: 10px 20px; /* Increased padding */
+  color: #FFFFFF; /* White text */
+  font-weight: bold; /* Bold font */
+  cursor: pointer; /* Mouse pointer */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn-custom:hover {
+  background-color: #0066cc; /* Darker blue hover color */
 }
